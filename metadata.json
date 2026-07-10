@@ -1,0 +1,6 @@
+{
+  "name": "HomeWorks Group",
+  "description": "Ekosistem bisnis terintegrasi seputar properti, konstruksi, interior, hingga ruang produktif dipimpin oleh Ir. Alex T Mayezet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
