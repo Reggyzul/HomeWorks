@@ -153,10 +153,10 @@ export default function ServicePage({ service, onBackToHome, onOpenConsultation 
                 HomeWorks Group Division Spec
               </span>
             </div>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif text-brand-beige tracking-tight leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-brand-beige tracking-tight leading-tight">
               {service.title}
             </h1>
-            <p className="text-base sm:text-lg text-brand-beige/90 leading-relaxed font-light max-w-2xl">
+            <p className="text-xs sm:text-sm md:text-base text-brand-beige/85 leading-relaxed font-light max-w-3xl text-justify">
               {service.description}
             </p>
           </motion.div>
