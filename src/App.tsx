@@ -313,6 +313,9 @@ export default function App() {
 
           {/* Main Structural Flow */}
           <main>
+            {/* About / Founder Profile Section */}
+            <About />
+
             {/* Services Showcase Catalog */}
             <Services
               onOpenConsultation={handleOpenConsultation}

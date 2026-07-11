@@ -97,15 +97,18 @@ export default function Hero({ onOpenConsultation }: HeroProps) {
       </div>
 
       {/* Scroll down indicator */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full mt-12 flex justify-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full mt-12 flex flex-col items-center justify-center">
         <motion.a
           id="scroll-down-arrow"
           href="#about"
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
-          className="text-brand-beige/40 hover:text-brand-bronze transition-colors p-2"
+          className="text-brand-beige/50 hover:text-brand-bronze transition-colors flex flex-col items-center gap-2 group cursor-pointer text-center"
         >
-          <ChevronDown className="w-5 h-5" />
+          <span className="text-[9px] font-bold tracking-[0.25em] uppercase text-brand-beige/60 group-hover:text-brand-bronze transition-colors">
+            Mengenal Founder & CEO
+          </span>
+          <ChevronDown className="w-4 h-4" />
         </motion.a>
       </div>
     </section>
