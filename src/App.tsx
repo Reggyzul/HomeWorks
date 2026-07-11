@@ -206,7 +206,7 @@ export default function App() {
     } else {
       window.history.pushState(null, '', '/');
     }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'instant' as any });
   };
 
   const handleBackToHome = () => {
@@ -237,7 +237,7 @@ export default function App() {
       setIsAboutPageActive(false);
       setActiveServiceId(null);
       window.history.pushState(null, '', '/contact');
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'instant' as any });
       return;
     }
 
@@ -246,7 +246,7 @@ export default function App() {
       setIsContactPageActive(false);
       setActiveServiceId(null);
       window.history.pushState(null, '', '/founder');
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'instant' as any });
       return;
     }
 
