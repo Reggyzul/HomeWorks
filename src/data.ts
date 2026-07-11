@@ -323,7 +323,7 @@ export const servicesData: Service[] = [
     id: 'homeworks-clean',
     title: 'HomeWorks Clean',
     iconName: 'Sparkles',
-    image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80',
+    image: '/images/homeworks-clean.avif',
     description: 'HomeWorks Clean adalah penyedia jasa kebersihan profesional berspesialisasi tinggi yang berkomitmen untuk menciptakan standar kebersihan paling higienis pada ruang hidup dan ruang kerja. Kami melayani pembersihan menyeluruh untuk menjaga properti Anda tetap bebas dari debu, kuman, bakteri, dan sumber penyakit lainnya yang kasat mata. Layanan kami terbagi menjadi beberapa kategori utama yaitu pembersihan harian atau berkala untuk rumah tinggal, kantor, dan kamar kos, pembersihan khusus pasca-konstruksi atau setelah renovasi yang berfokus pada pembersihan noda semen membandel, sisa cat, dan debu tebal sebelum properti resmi ditempati, serta layanan sanitasi vakum hidrolik untuk mengangkat tungau dan debu mati dari permukaan kasur, sofa, karpet, hingga gorden. Kami menggunakan peralatan modern dan cairan pembersih ramah lingkungan yang aman untuk anak-anak maupun hewan peliharaan.',
     visi: 'Menciptakan lingkungan ruang hidup dan ruang kerja yang higienis, sehat, dan menyegarkan.',
     misi: 'Menggunakan peralatan modern dan bahan pembersih yang aman, serta memberikan layanan pembersihan yang detail hingga ke sudut tersulit.',
