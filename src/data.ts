@@ -784,7 +784,7 @@ export const faqData: FAQItem[] = [
   {
     id: 'faq-5',
     question: 'Di mana lokasi kantor pusat HomeWorks Group?',
-    answer: 'Seluruh divisi operasional kami berpusat di satu markas yang sama, yaitu di Gedung Raja Sofa Pekanbaru. Anda bisa datang langsung ke kantor kami untuk konsultasi tatap muka.',
+    answer: 'Seluruh divisi operasional kami berpusat di satu markas yang sama, yaitu di Jl. Teropong Kelurahan No.28, Sidomulyo Bar., Kec. Tampan, Kota Pekanbaru, Riau . Anda bisa datang langsung ke kantor kami untuk konsultasi tatap muka.',
     category: 'General'
   }
 ];
