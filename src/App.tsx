@@ -309,13 +309,13 @@ export default function App() {
       ) : (
         <>
           {/* Hero Entrance Hub */}
-          <Hero onOpenConsultation={handleOpenConsultation} />
+          <Hero
+            onOpenConsultation={handleOpenConsultation}
+            onViewFounder={() => handleSelectSection('about')}
+          />
 
           {/* Main Structural Flow */}
           <main>
-            {/* About / Founder Profile Section */}
-            <About />
-
             {/* Services Showcase Catalog */}
             <Services
               onOpenConsultation={handleOpenConsultation}

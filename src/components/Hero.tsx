@@ -9,9 +9,10 @@ import { Compass, Award, Building2, CheckCircle2, ChevronDown, ChevronLeft, Chev
 
 interface HeroProps {
   onOpenConsultation: () => void;
+  onViewFounder?: () => void;
 }
 
-export default function Hero({ onOpenConsultation }: HeroProps) {
+export default function Hero({ onOpenConsultation, onViewFounder }: HeroProps) {
   const [currentBg, setCurrentBg] = useState(0);
 
   const backgrounds = [
@@ -101,6 +102,12 @@ export default function Hero({ onOpenConsultation }: HeroProps) {
         <motion.a
           id="scroll-down-arrow"
           href="#about"
+          onClick={(e) => {
+            e.preventDefault();
+            if (onViewFounder) {
+              onViewFounder();
+            }
+          }}
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
           className="text-brand-beige/50 hover:text-brand-bronze transition-colors flex flex-col items-center gap-2 group cursor-pointer text-center"
