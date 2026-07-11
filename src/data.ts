@@ -34,7 +34,7 @@ export const servicesData: Service[] = [
     title: 'HomeWorks Realty',
     iconName: 'Building',
     image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80',
-    description: 'Divisi agen properti tepercaya yang membantu klien dalam proses jual, beli, dan sewa properti (tanah, rumah, ruko, hingga gedung komersial) dengan legalitas yang aman dan transparan.',
+    description: 'HomeWorks Realty merupakan divisi keagenan properti profesional yang bergerak dalam bidang konsultasi, pemasaran, serta fasilitasi transaksi aset real estat secara menyeluruh. Kami melayani seluruh siklus transaksi properti yang meliputi proses jual, beli, hingga sewa-menyewa untuk berbagai skala aset, mulai dari tanah kavling, rumah tinggal, ruko komersial, hingga gedung perkantoran dan gudang industri. Dalam operasionalnya, tim kami melakukan kurasi ketat terhadap status hukum objek properti dengan melakukan pemeriksaan sertifikat, memastikan status bebas sengketa, serta memvalidasi data PBB untuk menjamin keamanan transaksional bagi vendor maupun investor. Selain melayani pasar korporat dan investasi bernilai tinggi, divisi ini juga menyediakan layanan retail khusus berupa pencarian dan manajemen hunian sewa, kontrakan, serta kamar kos strategis yang ramah anggaran bagi mahasiswa, pekerja kantoran, maupun pasangan muda.',
     visi: 'Menjadi mitra pencarian properti paling tepercaya dan bernilai investasi tinggi bagi masyarakat.',
     misi: 'Menyediakan unit properti berkualitas, mempermudah proses transaksi hukum, dan memberikan konsultasi investasi properti yang akurat.',
     details: [
@@ -107,7 +107,7 @@ export const servicesData: Service[] = [
     title: 'HomeWorks Engineering',
     iconName: 'Compass',
     image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
-    description: 'Konsultan teknik yang berfokus pada perencanaan struktur, analisis kelayakan bangunan, gambar kerja teknis, serta sistem mekanikal, elektrikal, dan plumbing (MEP) yang diawasi langsung oleh ahli teknik sipil.',
+    description: 'HomeWorks Engineering bertindak sebagai konsultan teknik sipil dan arsitektur yang bertanggung jawab penuh atas perencanaan awal, analisis struktural, hingga pengawasan teknis sebuah bangunan. Kami memadukan keahlian akademis teknik sipil yang kuat untuk menghadirkan standar perhitungan yang presisi, aman, serta efisien terhadap penggunaan material di lapangan sebelum proses konstruksi fisik dimulai. Ruang lingkup pelayanan divisi ini meliputi pembuatan dokumen Detail Engineering Design (DED) atau gambar kerja teknis cetak biru, perancangan denah visualisasi 3D eksterior dan interior, penyusunan Rencana Anggaran Biaya (RAB) yang akurat untuk mencegah pembengkakan dana, perhitungan mekanika struktur beton bertulang dan baja, serta analisis sistem utilitas bangunan berupa Mekanikal, Elektrikal, dan Plumbing (MEP). Setiap proyek yang kami tangani dianalisis langsung menggunakan perangkat lunak teknik modern untuk memastikan seluruh bangunan memenuhi standar kelayakan dan kode keamanan nasional.',
     visi: 'Menjadi pelopor konsultan teknik sipil yang mengutamakan keamanan, presisi, dan efisiensi material.',
     misi: 'Menghasilkan dokumen perencanaan yang akurat, aman sesuai standar nasional, dan berbasis teknologi konstruksi modern.',
     details: [
@@ -180,7 +180,7 @@ export const servicesData: Service[] = [
     title: 'HomeWorks Build',
     iconName: 'Hammer',
     image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80',
-    description: 'Kontraktor konstruksi fisik yang melayani pembangunan dari nol hingga renovasi total untuk rumah tinggal, perkantoran, dan gedung bisnis dengan manajemen proyek yang tepat waktu dan transparan.',
+    description: 'HomeWorks Build merupakan divisi kontraktor pelaksana konstruksi fisik yang melayani pembangunan dari tahap awal hingga renovasi skala besar maupun parsial. Kami memegang teguh komitmen transparansi manajemen proyek dan ketepatan waktu eksekusi guna memberikan kepuasan maksimal kepada klien tanpa adanya biaya-biaya siluman di tengah masa pengerjaan proyek. Layanan konstruksi kami mencakup pembangunan rumah tinggal kustom, pembangunan kompleks rumah kos-kosan modern, ruko, serta gedung bisnis dengan sistem kerja terima kunci. Secara teknis, tim di lapangan menangani langsung struktur bawah seperti fondasi dan sloof, struktur atas seperti kolom, balok, dan pelat lantai, pekerjaan dinding, pemasangan pagar pembatas, kanopi minimalis, pembuatan sistem drainase lingkungan, pengaspalan atau pengecoran jalan beton, hingga pengaplikasian sistem pelapis anti-bocor mutakhir pada area atap dak dan dinding luar bangunan yang disertai garansi struktur tertulis.',
     visi: 'Menjadi kontraktor pilihan utama yang dikenal karena kualitas bangunan yang kokoh dan ketepatan waktu eksekusi.',
     misi: 'Mewujudkan bangunan impian klien dengan material terbaik, pekerja terampil, dan manajemen anggaran yang efisien tanpa biaya tak terduga.',
     details: [
@@ -251,7 +251,7 @@ export const servicesData: Service[] = [
     title: 'HomeWorks Interior',
     iconName: 'Palette',
     image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80',
-    description: 'Layanan desain interior kustom dan space planning yang memadukan keindahan estetika dengan fungsi ruangan, menciptakan suasana hunian atau tempat kerja yang nyaman dan mencerminkan karakter pemiliknya.',
+    description: 'HomeWorks Interior menyediakan layanan perancangan interior kustom dan tata letak ruang profesional yang berfokus pada harmonisasi antara nilai estetika visual dengan optimalisasi fungsi ruang. Kami percaya bahwa interior yang dirancang dengan baik harus mampu mencerminkan karakter unik pemiliknya sekaligus meningkatkan kenyamanan dan produktivitas di dalam ruangan. Kami menangani pengerjaan interior untuk sektor hunian privat maupun area komersial dengan cakupan kerja yang meliputi pembuatan perabot kustom seperti kitchen set modern, lemari pakaian tanam, kabinet TV, meja kerja, dan penataan kamar tidur utama, termasuk untuk kebutuhan kamar kos estetik. Di sektor komersial, kami merancang tata ruang kantor, kafe, restoran, dan butik. Seluruh proses produksi dikerjakan sendiri oleh pengrajin internal untuk memastikan detail sambungan, kekuatan material, dan penyelesaian akhir yang rapi serta presisi.',
     visi: 'Menghadirkan transformasi ruang yang estetik, fungsional, dan meningkatkan kualitas hidup penghuninya.',
     misi: 'Merancang konsep interior inovatif, memanfaatkan ruang secara optimal, dan mengeksekusi interior dengan detail pengerjaan (craftsmanship) yang rapi.',
     details: [
@@ -324,7 +324,7 @@ export const servicesData: Service[] = [
     title: 'HomeWorks Clean',
     iconName: 'Sparkles',
     image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80',
-    description: 'Layanan kebersihan profesional (deep cleaning) untuk rumah, kantor, sofa, serta pembersihan khusus pasca-konstruksi sebelum bangunan siap ditempati oleh pemiliknya.',
+    description: 'HomeWorks Clean adalah penyedia jasa kebersihan profesional berspesialisasi tinggi yang berkomitmen untuk menciptakan standar kebersihan paling higienis pada ruang hidup dan ruang kerja. Kami melayani pembersihan menyeluruh untuk menjaga properti Anda tetap bebas dari debu, kuman, bakteri, dan sumber penyakit lainnya yang kasat mata. Layanan kami terbagi menjadi beberapa kategori utama yaitu pembersihan harian atau berkala untuk rumah tinggal, kantor, dan kamar kos, pembersihan khusus pasca-konstruksi atau setelah renovasi yang berfokus pada pembersihan noda semen membandel, sisa cat, dan debu tebal sebelum properti resmi ditempati, serta layanan sanitasi vakum hidrolik untuk mengangkat tungau dan debu mati dari permukaan kasur, sofa, karpet, hingga gorden. Kami menggunakan peralatan modern dan cairan pembersih ramah lingkungan yang aman untuk anak-anak maupun hewan peliharaan.',
     visi: 'Menciptakan lingkungan ruang hidup dan ruang kerja yang higienis, sehat, dan menyegarkan.',
     misi: 'Menggunakan peralatan modern dan bahan pembersih yang aman, serta memberikan layanan pembersihan yang detail hingga ke sudut tersulit.',
     details: [
@@ -414,7 +414,7 @@ export const servicesData: Service[] = [
     title: 'SofaWorks (Coworking Space)',
     iconName: 'Laptop',
     image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80',
-    description: 'Ruang kerja bersama yang modern, produktif, dan fleksibel di Gedung Raja Sofa. Dilengkapi dengan fasilitas internet cepat, ruang rapat (meeting room), dan ekosistem yang mendukung pertumbuhan komunitas bisnis serta freelancer.',
+    description: 'SofaWorks merupakan ruang kerja bersama modern yang dirancang untuk mendukung produktivitas, fleksibilitas, dan pertumbuhan ekosistem bisnis kolaboratif. Bertempat di lingkungan strategis Gedung Raja Sofa, SofaWorks menyediakan wadah representatif bagi para profesional, pengusaha startup, pekerja lepas, mahasiswa, hingga komunitas kreatif untuk bekerja, mengadakan rapat, dan memperluas jaringan bisnis. Fasilitas fisik yang kami sewakan meliputi area meja kerja harian dan bulanan yang fleksibel, ruang rapat eksklusif berkapasitas modular yang dilengkapi proyektor dan papan tulis digital, serta ruang kantor privat untuk operasional tim skala kecil. Seluruh ekosistem kerja di SofaWorks telah terintegrasi dengan fasilitas penunjang premium seperti koneksi internet pita lebar berbasis serat optik, stasiun pencetakan dokumen, area lounge komunal, serta akses kopi, teh, dan air mineral gratis guna menjamin kenyamanan operasional harian para anggotanya.',
     visi: 'Menjadi pusat ekosistem kreatif dan kolaboratif bagi para profesional, pengusaha, dan komunitas di wilayah sekitar.',
     misi: 'Menyediakan lingkungan kerja yang nyaman dan kondusif, memfasilitasi peluang jejaring (networking), serta memberikan pelayanan operasional kantor yang premium.',
     details: [
@@ -484,7 +484,7 @@ export const servicesData: Service[] = [
     title: 'Raja Sofa',
     iconName: 'Armchair',
     image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80',
-    description: 'Sofa premium berkualitas tinggi yang dirancang khusus untuk kenyamanan dan keindahan maksimal ruang Anda. Dibuat dengan material berkualitas tinggi dan craftsmanship terbaik untuk menghiasi ruang hidup Anda secara mewah.',
+    description: 'Raja Sofa adalah pusat manufaktur, fabrikasi, dan kustomisasi sofa premium yang mengedepankan tiga pilar utama produk yaitu kekuatan struktur rangka, kenyamanan bantalan dudukan, dan estetika material pembungkus luar. Sebagai produsen langsung, kami memberikan kebebasan penuh kepada konsumen untuk menentukan spesifikasi sofa yang paling sesuai dengan konsep interior ruang keluarga maupun ruang kerja mereka. Proses manufaktur kami melibatkan pemilihan material kayu keras pilihan yang telah melalui proses oven anti-rayap untuk struktur rangka, penggunaan kombinasi pegas baja berkualitas dengan busa poliuretan tingkat kepadatan tinggi agar tidak mudah kempes, serta kurasi ribuan pilihan kain pelapis mulai dari kain berserat halus, beludru, hingga kulit sintetis premium dengan variasi warna yang beragam. Kami memproduksi berbagai jenis model seperti sofa minimalis, sofa sudut L, recliner chair, hingga sofa bed.',
     details: [
       'Koleksi sofa mewah & premium dari Rajasofa.id',
       'Kustomisasi ukuran, model, dan warna kain premium',
