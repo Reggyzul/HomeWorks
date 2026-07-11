@@ -83,6 +83,7 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
             <li><a href="#services" className="hover:text-brand-bronze transition-colors">HomeWorks Build</a></li>
             <li><a href="#services" className="hover:text-brand-bronze transition-colors">HomeWorks Interior</a></li>
             <li><a href="#services" className="hover:text-brand-bronze transition-colors">HomeWorks Clean</a></li>
+            <li><a href="#services" className="hover:text-brand-bronze transition-colors">HomeWorks Care</a></li>
             <li><a href="#services" className="hover:text-brand-bronze transition-colors">SofaWorks Space</a></li>
           </ul>
         </div>
