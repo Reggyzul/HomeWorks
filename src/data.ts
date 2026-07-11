@@ -410,6 +410,80 @@ export const servicesData: Service[] = [
     ]
   },
   {
+    id: 'homeworks-care',
+    title: 'HomeWorks Care',
+    iconName: 'Wrench',
+    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80',
+    description: 'HomeWorks Care hadir sebagai divisi pelayanan teknis harian, perbaikan darurat, dan pemeliharaan properti berkala. Divisi ini dibentuk khusus untuk menjawab kebutuhan pemilik rumah, pengelola kos, maupun manajemen gedung yang seringkali kesulitan mencari teknisi tepercaya untuk menangani kerusakan-kerusakan teknis skala kecil hingga menengah. Ruang lingkup kerja teknis kami mencakup penanganan masalah instalasi arus listrik, perbaikan korsleting, pemasangan titik lampu baru, serta perawatan rutin, cuci, isi freon, hingga bongkar-pasang unit AC. Kami juga ahli dalam mengatasi gangguan perpipaan seperti pipa bocor di dalam dinding, wastafel atau saluran pembuangan kamar mandi yang tersumbat, perbaikan pompa air, pengecatan ulang dinding yang berjamur, serta perbaikan kebocoran atap genteng maupun plafon. Layanan ini didukung oleh teknisi berpengalaman yang jujur, cepat tanggap, dan bekerja secara tuntas.',
+    visi: 'Menjadi solusi utama, terdepan, dan tercepat dalam menjaga fungsi teknis serta kenyamanan total properti pelanggan.',
+    misi: 'Menjamin hasil perbaikan yang tuntas, aman sesuai standar, dan disertai garansi resmi demi ketenangan pikiran konsumen, Menyediakan tenaga teknis ahli yang jujur, profesional, dan berintegritas tinggi untuk menangani segala skala kerusakan.',
+    details: [
+      'Layanan perbaikan teknis harian & darurat (korsleting, bocor)',
+      'Perawatan berkala unit AC (cuci, isi freon, bongkar-pasang)',
+      'Mengatasi gangguan perpipaan & pompa air tersumbat/bocor',
+      'Didukung oleh teknisi berpengalaman, jujur, & cepat tanggap'
+    ],
+    whyChooseUs: [
+      'Teknisi berpengalaman dan bersertifikat',
+      'Solusi darurat cepat tanggap (emergency response)',
+      'Hasil kerja tuntas dan bergaransi resmi',
+      'Tarif perbaikan transparan tanpa biaya tersembunyi',
+      'Tenaga kerja jujur, sopan, dan berintegritas tinggi',
+      'Peralatan teknis lengkap dan modern'
+    ],
+    servicesList: [
+      {
+        category: 'Kelistrikan & AC',
+        items: [
+          'Perbaikan instalasi listrik & korsleting',
+          'Pemasangan titik lampu baru',
+          'Cuci & isi freon AC rutin',
+          'Bongkar-pasang unit AC'
+        ]
+      },
+      {
+        category: 'Perpipaan & Plumbing',
+        items: [
+          'Mengatasi pipa bocor dalam dinding',
+          'Saluran air mampet (wastafel, kamar mandi)',
+          'Perbaikan & pemasangan pompa air',
+          'Instalasi tandon / toren air'
+        ]
+      },
+      {
+        category: 'Pertukangan & Dinding',
+        items: [
+          'Pengecatan ulang dinding berjamur',
+          'Perbaikan atap bocor / genteng geser',
+          'Perbaikan plafon retak / rusak',
+          'Pekerjaan perbaikan kecil (engsel, kunci)'
+        ]
+      },
+      {
+        category: 'Kontrak Pemeliharaan',
+        items: [
+          'Pemeliharaan bulanan rumah tinggal',
+          'Manajemen kos-kosan terpadu',
+          'Pemeliharaan fasilitas gedung / kantor'
+        ]
+      }
+    ],
+    packages: [
+      {
+        name: 'Quick Fix',
+        items: ['Pemeriksaan kelistrikan dasar', 'Perbaikan 1 titik masalah (listrik/pipa)', 'Estimasi pengerjaan di bawah 2 jam']
+      },
+      {
+        name: 'AC Care Bundle',
+        items: ['Cuci AC berkala (maks. 3 unit)', 'Pemeriksaan tekanan freon', 'Pembersihan filter udara & pembuangan']
+      },
+      {
+        name: 'Premium Maintenance',
+        items: ['Inspeksi menyeluruh struktur & utilitas bulanan', 'Prioritas panggilan darurat 24/7', 'Diskon khusus jasa perbaikan besar']
+      }
+    ]
+  },
+  {
     id: 'sofaworks',
     title: 'SofaWorks (Coworking Space)',
     iconName: 'Laptop',

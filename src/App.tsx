@@ -64,6 +64,12 @@ export default function App() {
       'homeworksclean': 'homeworks-clean',
       'clean': 'homeworks-clean',
 
+      'homeworks-care': 'homeworks-care',
+      'homeworks-care/': 'homeworks-care',
+      'homeworks_care': 'homeworks-care',
+      'homeworkscare': 'homeworks-care',
+      'care': 'homeworks-care',
+
       'sofaworks': 'sofaworks',
       'sofaworks/': 'sofaworks',
       'sofawork': 'sofaworks',
@@ -190,6 +196,7 @@ export default function App() {
       'homeworks-build': 'Homeworks-Build',
       'homeworks-interior': 'Homeworks-Interior',
       'homeworks-clean': 'Homeworks-Clean',
+      'homeworks-care': 'Homeworks-Care',
       'sofaworks': 'SofaWorks',
       'raja-sofa': 'Raja-Sofa'
     };

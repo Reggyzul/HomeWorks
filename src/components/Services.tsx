@@ -38,6 +38,8 @@ export default function Services({ onOpenConsultation, activeServiceId, onClearA
         return 'from-emerald-50/90 via-stone-50/50 to-white group-hover:from-emerald-100/90 group-hover:via-emerald-50/40 group-hover:to-white';
       case 'homeworks-clean':
         return 'from-cyan-50/90 via-stone-50/50 to-white group-hover:from-cyan-100/90 group-hover:via-cyan-50/40 group-hover:to-white';
+      case 'homeworks-care':
+        return 'from-orange-50/90 via-stone-50/50 to-white group-hover:from-orange-100/90 group-hover:via-orange-50/40 group-hover:to-white';
       case 'sofaworks':
         return 'from-purple-50/90 via-stone-50/50 to-white group-hover:from-purple-100/90 group-hover:via-purple-50/40 group-hover:to-white';
       case 'raja-sofa':

@@ -60,6 +60,12 @@ export default function ServicePage({ service, onBackToHome, onOpenConsultation 
           { name: 'paxCount', label: 'Jumlah Tim / Orang', type: 'select', options: ['1 Orang (Individu)', '2-4 Orang', '5-8 Orang', 'Lebih dari 8 Orang'] },
           { name: 'industry', label: 'Bidang Usaha / Profesi', type: 'text', placeholder: 'Contoh: IT, Agensi Kreatif, Mahasiswa, Freelancer' }
         ];
+      case 'homeworks-care':
+        return [
+          { name: 'careType', label: 'Jenis Layanan Teknis', type: 'select', options: ['Perbaikan Listrik / Korsleting', 'Perawatan / Cuci AC', 'Perpipaan / Saluran Bocor / Tersumbat', 'Pengecatan / Kebocoran Atap', 'Pemeliharaan Rutin Berkala'] },
+          { name: 'urgency', label: 'Tingkat Urgensi', type: 'select', options: ['Darurat (Emergency / Hari Ini)', 'Biasa (Jadwal 1-3 Hari Ke Depan)', 'Rutin (Mingguan / Bulanan)'] },
+          { name: 'propertyAddress', label: 'Alamat Lokasi Properti', type: 'text', placeholder: 'Masukkan alamat lengkap properti yang membutuhkan layanan' }
+        ];
       case 'raja-sofa':
         return [
           { name: 'sofaType', label: 'Tipe Sofa Rajasofa.id', type: 'select', options: ['Sofa L-Shape Premium', 'Sofa Minimalis 2-Seater / 3-Seater', 'Sofa Bed Serbaguna', 'Sofa Kustom Desain Sendiri', 'Service / Ganti Kulit Sofa Lama'] },

@@ -17,7 +17,8 @@ import {
   Hammer,
   Palette,
   Laptop,
-  Armchair
+  Armchair,
+  Wrench
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -58,6 +59,7 @@ export default function Navbar({ onOpenConsultation, onSelectService, onSelectSe
     { label: 'Build', id: 'homeworks-build', href: '#homeworks-build', icon: Hammer, desc: 'Kontraktor & Renovasi SNI' },
     { label: 'Interior', id: 'homeworks-interior', href: '#homeworks-interior', icon: Palette, desc: 'Desain Interior Kustom & Furniture' },
     { label: 'Clean', id: 'homeworks-clean', href: '#homeworks-clean', icon: Sparkles, desc: 'Deep Cleaning Profesional & Steril' },
+    { label: 'Care', id: 'homeworks-care', href: '#homeworks-care', icon: Wrench, desc: 'Perbaikan Teknis & Perawatan Properti' },
     { label: 'SofaWorks', id: 'sofaworks', href: '#sofaworks', icon: Laptop, desc: 'Coworking Space Modern' },
     { label: 'Raja Sofa', id: 'raja-sofa', href: '#raja-sofa', icon: Armchair, desc: 'Sofa Kustom Mewah Berkualitas' },
   ];
